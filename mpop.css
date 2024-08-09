@@ -1,0 +1,190 @@
+html{
+    font-size: 100%;
+}
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+
+.creator{
+    font-size: x-large;
+}
+
+.textbox{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+.customButtons{
+    border-style: solid;
+    font-size: 21px;
+    color: black;
+    background-color: lightgray;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+}
+
+.customButtons:hover{
+    background-color: white;
+    color: black;
+}
+.customButtons1{
+    border-style: solid;
+    font-size: 21px;
+    color: black;
+    background-color: lightgray;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+}
+
+.customButtons1:hover{
+    background-color: white;
+    color: black;
+}
+
+.customButtons2{
+    border-style: solid;
+    font-size: 18px;
+    color: black;
+    background-color: lightgray;
+    width:120px;
+    height: 30px;
+    text-align:center;
+    margin:auto;
+}
+
+.customButtons2:hover{
+    background-color: white;
+    color: black;
+}
+
+.customButtons2_5{
+    border-style: solid;
+    font-size: 18px;
+    color: black;
+    background-color: lightgray;
+    width:120px;
+    height: 30px;
+    text-align:center;
+    position: absolute;
+    left: 5%;
+}
+
+.customButtons2_5:hover{
+    background-color: white;
+    color: black;
+}
+
+.customButton{
+    border-style: solid;
+    font-size: 16.5px;
+    color: black;
+    background-color: lightgray;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+}
+
+.customButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.customSocial{
+    border-style: solid;
+    font-size: 30px;
+    color: black;
+    background-color: lightgray;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+}
+
+.customSocial:hover{
+    background-color: white;
+    color: black;
+}
+
+.nerName{
+    position: absolute;
+    left: 10%;
+}
+
+table{
+    position: absolute;
+    left: 20%;
+    width: 60%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+th{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: lightyellow;
+    font-size: x-large;
+}
+
+td{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color:lightgreen ;
+    color: black;
+    font-size: large;
+}
+
+.wonky{
+    background-color: yellow;
+    color:black;
+}
+.wonky1{
+    color:red;
+}
+div.a{
+    position: absolute;
+    left: 70%;  
+    bottom: 1%;
+}
+.wrapper-main {
+    width : 1000px;
+    height: 760px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper-main {
+        width : 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .wrapper-main {
+        width : 100%;
+        /*background-color: red;*/
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper-main {
+        width : 100%;
+        /*background-color: green;*/
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper-main {
+        width : 100%;
+        /*background-color: purple;*/
+    }
+}
+
