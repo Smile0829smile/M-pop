@@ -40,7 +40,7 @@ function mPopGishuud(){
         output +="<tr><td>Minji</td><td>13</td><td><input type='button' class='proFile' value='FaceBook' onClick='minjiFb()'></td></tr>";
 
         //Hyeon
-        output +="<tr><td>Yuna</td><td>12</td><td><input type='button' class='proFile' value='FaceBook' onClick='hyeonFb()'></td></tr>";
+        output +="<tr><td>Hyeon</td><td>12</td><td><input type='button' class='proFile' value='FaceBook' onClick='hyeonFb()'></td></tr>";
 
         //Nazuke
         output +="<tr><td>Nazuke</td><td>16</td><td><input type='button' class='proFile' value='FaceBook' onClick='nazukeFb()'></td></td>";
