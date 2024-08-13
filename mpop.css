@@ -111,6 +111,18 @@ body{
     color: black;
 }
 
+.nuuts{
+    border-style: solid;
+    font-size: 30px;
+    color: lightblue;
+    background-color: lightblue;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    margin:auto;
+    border-color: lightblue;
+}
+
 .nerName{
     position: absolute;
     left: 10%;
@@ -154,6 +166,12 @@ div.a{
     left: 70%;  
     bottom: 1%;
 }
+
+div.b{
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
 .wrapper-main {
     width : 1000px;
     height: 760px;
@@ -187,4 +205,5 @@ div.a{
         /*background-color: purple;*/
     }
 }
+
 
