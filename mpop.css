@@ -17,7 +17,7 @@ body{
 }
 .customButtons{
     border-style: solid;
-    font-size: 21px;
+    font-size: 20px;
     color: black;
     background-color: lightgray;
     width:180px;
@@ -81,7 +81,7 @@ body{
 
 .customButton{
     border-style: solid;
-    font-size: 16.5px;
+    font-size: 15px;
     color: black;
     background-color: lightgray;
     width:180px;
