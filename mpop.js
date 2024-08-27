@@ -685,7 +685,7 @@ function checkCode(){
     else if(idCode.value == "2024MPOP"){
         idH2.innerHTML = "Bi entiinhendee hairtai <3. love you all from nazuke."
 
-        idH2.innerHTML += "<input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+        idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
     else{
         alert("Code is wrong, please try again.")
