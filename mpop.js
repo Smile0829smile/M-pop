@@ -75,11 +75,11 @@ function mPopGishuud(){
         //Lusie
         output +="<tr><td>Lusie</td><td>11</td><td></td></tr>";
 
-        //Anni
-        output +="<tr><td>Anni</td><td>13</td><td></td></tr>";
+        // //Anni
+        // output +="<tr><td>Anni</td><td>13</td><td></td></tr>";
 
-        //Jeny
-        output +="<tr><td>Jeny</td><td>11</td><td></td></tr>";
+        // //Jeny
+        // output +="<tr><td>Jeny</td><td>11</td><td></td></tr>";
 
 
         output +="</table><br><br><br><br><br><br><br><br>";
@@ -321,8 +321,8 @@ function mPopGishuud(){
         idH2.innerHTML += "<h3 class='nerName'>Inferno</h3><br><br>";
         var output ="<br><table><tr><th>Ner</th><th>Nas</th><th>Social</th></tr>";
 
-        //Jenniefer
-        output +="<tr><td>Jenniefer</td><td>12</td><td></td></tr>";
+        //Jihoon
+        output +="<tr><td>Jihoon</td><td>15</td><td></td></tr>";
 
         //Jusong
         output +="<tr><td>Jusong</td><td>16</td><td><input type='button' class='proFile' value='FaceBook' onClick='jusongFb()'></td></tr>";
@@ -394,11 +394,11 @@ function mPopGishuud(){
         //Ellena
         output +="<tr><td>Ellena</td><td>9</td><td></td></tr>";
 
-        //Jihoon
-        output +="<tr><td>Jihoon</td><td>15</td><td></td></tr>";
-
         //Julia
         output +="<tr><td>Julia</td><td>13</td><td></td></tr>";
+
+        //Jenniefer
+        output +="<tr><td>Jenniefer</td><td>12</td><td></td></tr>";
 
         output +="</table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
         idH2.innerHTML += output;
@@ -420,6 +420,9 @@ function mPopGishuud(){
 
         //Hina
         output +="<tr><td>Hina</td><td>14</td><td><input type='button' class='proFile' value='FaceBook' onClick='hinaFb()'></td></tr>";
+
+        //Yurie
+        output +="<tr><td>Yurie</td><td>12</td><td></td></tr>";
 
 
         output +="</table><br><br><br><br>";
