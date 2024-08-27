@@ -116,8 +116,8 @@ body{
     font-size: 30px;
     color: lightblue;
     background-color: lightblue;
-    width:90px;
-    height: 45px;
+    width:10px;
+    height: 10px;
     text-align:center;
     margin:auto;
     border-color: lightblue;
@@ -171,7 +171,8 @@ div.b{
     position: absolute;
     left: 1%;
     bottom: 1%;
-    width: 75px;
+    width: 25px;
+    height: 25px;
 }
 .wrapper-main {
     width : 1000px;
