@@ -21,6 +21,7 @@ function socailMedia(){
     idH2.innerHTML = "<input type='button' class='customSocial' value='YouTube' onClick='youTube()'><br><br>";
     idH2.innerHTML += "<input type='button' class='customSocial' value='FaceBook' onClick='faceBook()'><br><br>"
     idH2.innerHTML += "<input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    idH4.innerHTML += "";
 }
 
 
@@ -29,6 +30,7 @@ function socailMedia(){
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function mPopGishuud(){
         idH3.innerHTML = "";
+        idH4.innerHTML = "";
 
     //Back button
     idH2.innerHTML = "<input type='button' class='customButtons2_5' value='butsah' onClick='startingThings()'><br>";
@@ -46,6 +48,9 @@ function mPopGishuud(){
 
         //Nazuke
         output +="<tr><td>Nazuke</td><td>16</td><td><input type='button' class='proFile' value='FaceBook' onClick='nazukeFb()'></td></td>";
+
+        //Jusong
+        output +="<tr><td>Jusong</td><td>16</td><td><input type='button' class='proFile' value='FaceBook' onClick='jusongFb()'></td></tr>";
 
 
         output +="</table><br><br><br><br><br>";
@@ -67,8 +72,17 @@ function mPopGishuud(){
         //Ruby
         output +="<tr><td>Ruby</td><td>11</td><td><input type='button' class='proFile' value='FaceBook' onClick='rubyFb()'></td></tr>"
 
+        //Lusie
+        output +="<tr><td>Lusie</td><td>11</td><td></td></tr>";
 
-        output +="</table><br><br><br><br><br><br>";
+        //Anni
+        output +="<tr><td>Anni</td><td>13</td><td></td></tr>";
+
+        //Jeny
+        output +="<tr><td>Jeny</td><td>11</td><td></td></tr>";
+
+
+        output +="</table><br><br><br><br><br><br><br><br>";
         idH2.innerHTML += output;
 
 //Y4Kill
@@ -126,28 +140,28 @@ function mPopGishuud(){
         output +="</table><br><br><br><br><br><br><br><br>";
         idH2.innerHTML += output;
 
-//Cr5zy
-        idH2.innerHTML += "<h3 class='nerName'>Cr5zy</h3><br><br>";
-        var output ="<br><table><tr><th>Ner</th><th>Nas</th><th>Social</th></tr>";
+// //Cr5zy
+//         idH2.innerHTML += "<h3 class='nerName'>Cr5zy</h3><br><br>";
+//         var output ="<br><table><tr><th>Ner</th><th>Nas</th><th>Social</th></tr>";
 
-        //Euryeon
-        output +="<tr><td>Euryeon</td><td>10</td><td><input type='button' class='proFile' value='FaceBook' onClick='euryeonFb()'></td></tr>";
+//         //Euryeon
+//         output +="<tr><td>Euryeon</td><td>10</td><td><input type='button' class='proFile' value='FaceBook' onClick='euryeonFb()'></td></tr>";
 
-        //Yojun
-        output +="<tr><td>Yojun</td><td>15</td><td><input type='button' class='proFile' value='FaceBook' onClick='yojunFb()'></td></tr>";
+//         //Yojun
+//         output +="<tr><td>Yojun</td><td>15</td><td><input type='button' class='proFile' value='FaceBook' onClick='yojunFb()'></td></tr>";
 
-        //Hyeon
-        output +="<tr><td>Hyeon</td><td>12</td><td><input type='button' class='proFile' value='FaceBook' onClick='hyeonFb()'></td></tr>";
+//         //Hyeon
+//         output +="<tr><td>Hyeon</td><td>12</td><td><input type='button' class='proFile' value='FaceBook' onClick='hyeonFb()'></td></tr>";
 
-        //Yunji
-        output +="<tr><td>Yunji</td><td>13</td><td><input type='button' class='proFile' value='FaceBook' onClick='yunjiFb()'></td></tr>";
+//         //Yunji
+//         output +="<tr><td>Yunji</td><td>13</td><td><input type='button' class='proFile' value='FaceBook' onClick='yunjiFb()'></td></tr>";
 
-        //Nana
-        output +="<tr><td>Nana</td><td></td><td><input type='button' class='proFile' value='FaceBook' onClick='nanaFb()'></td></tr>";
+//         //Nana
+//         output +="<tr><td>Nana</td><td></td><td><input type='button' class='proFile' value='FaceBook' onClick='nanaFb()'></td></tr>";
 
 
-        output +="</table><br><br><br><br><br><br><br>";
-        idH2.innerHTML += output;
+//         output +="</table><br><br><br><br><br><br><br>";
+//         idH2.innerHTML += output;
 
 // //MagicSwan
 //         idH2.innerHTML += "<h3 class='nerName'>Magic Swan</h3><br><br>";
@@ -226,7 +240,7 @@ function mPopGishuud(){
         output +="<tr><td>Cheonsa</td><td>13</td><td><input type='button' class='proFile' value='FaceBook' onClick='cheonsaFb()'></td></tr>";
 
         //Nana
-        output +="<tr><td>Nana</td><td></td><td><input type='button' class='proFile' value='FaceBook' onClick='nanaFb()'></td></tr>";
+        output +="<tr><td>Nana</td><td>13</td><td><input type='button' class='proFile' value='FaceBook' onClick='nanaFb()'></td></tr>";
 
 
         output +="</table><br><br><br><br><br><br><br><br>";
@@ -267,8 +281,56 @@ function mPopGishuud(){
         //Minju
         output +="<tr><td>Minju</td><td>11</td><td></td></tr>";
 
+        //Yujin
+        output +="<tr><td>Yujin</td><td>9</td><td></td></tr>";
+
 
         output +="</table><br><br><br><br><br><br>";
+        idH2.innerHTML += output;
+
+//Celestial
+        idH2.innerHTML += "<h3 class='nerName'>Celestial</h3><br><br>";
+        var output ="<br><table><tr><th>Ner</th><th>Nas</th><th>Social</th></tr>";
+
+        //Veni
+        output +="<tr><td>Veni</td><td>12</td><td></td></tr>";
+
+        //Muunee
+        output +="<tr><td>Muunee</td><td>11</td><td></td></tr>";
+
+        output +="</table><br><br><br>";
+        idH2.innerHTML += output;
+
+//QUEX
+        idH2.innerHTML += "<h3 class='nerName'>QUEX</h3><br><br>";
+        var output ="<br><table><tr><th>Ner</th><th>Nas</th><th>Social</th></tr>";
+
+        //Teddy
+        output +="<tr><td>Teddy</td><td>13</td><td></td></tr>";
+
+        //Jusong
+        output +="<tr><td>Jusong</td><td>16</td><td><input type='button' class='proFile' value='FaceBook' onClick='jusongFb()'></td></tr>";
+
+        //Kimmy
+        output +="<tr><td>Kimmy</td><td>12</td><td><input type='button' class='proFile' value='FaceBook' onClick='kimmyFb()'></td></tr>";
+
+        output +="</table><br><br><br><br>";
+        idH2.innerHTML += output;
+
+//Inferno
+        idH2.innerHTML += "<h3 class='nerName'>Inferno</h3><br><br>";
+        var output ="<br><table><tr><th>Ner</th><th>Nas</th><th>Social</th></tr>";
+
+        //Jenniefer
+        output +="<tr><td>Jenniefer</td><td>12</td><td></td></tr>";
+
+        //Jusong
+        output +="<tr><td>Jusong</td><td>16</td><td><input type='button' class='proFile' value='FaceBook' onClick='jusongFb()'></td></tr>";
+
+        //Rora
+        output +="<tr><td>Rora</td><td>14</td><td></td></tr>";
+
+        output +="</table><br><br><br><br><br>";
         idH2.innerHTML += output;
 
 //Soloist
@@ -290,14 +352,55 @@ function mPopGishuud(){
         //Sanghee
         output +="<tr><td>Sanghee</td><td>13</td><td><input type='button' class='proFile' value='FaceBook' onClick='sangheeFb()'></td></tr>";
 
-        //Liana
-        output +="<tr><td>Liana</td><td>10</td><td><input type='button' class='proFile' value='FaceBook' onClick='lianaFb()'></td></tr>";
+        // //Liana
+        // output +="<tr><td>Liana</td><td>10</td><td><input type='button' class='proFile' value='FaceBook' onClick='lianaFb()'></td></tr>";
 
-        //Noa
-        output +="<tr><td>Noa</td><td>17</td><td><input type='button' class='proFile' value='FaceBook' onClick='noaFb()'></td></tr>";
+        // //Noa
+        // output +="<tr><td>Noa</td><td>17</td><td><input type='button' class='proFile' value='FaceBook' onClick='noaFb()'></td></tr>";
 
+        //Gena
+        output +="<tr><td>Gena</td><td>16</td><td><input type='button' class='proFile' value='FaceBook' onClick='genaFb()'></td></tr>";
 
-        output +="</table><br><br><br><br><br><br><br><br><br>";
+        //Lychee
+        output +="<tr><td>Lychee</td><td>11</td><td></td></tr>";
+
+        //Alex
+        output +="<tr><td>Alex</td><td>15</td><td></td></tr>";
+
+        //Remi
+        output +="<tr><td>Remi</td><td>11</td><td></td></tr>";
+
+        //Eunjin
+        output +="<tr><td>Eunjin</td><td>11</td><td></td></tr>";
+
+        // //Collera
+        // output +="<tr><td>Collera</td><td>12</td><td></td></tr>";
+
+        //Michy
+        output +="<tr><td>Michy</td><td>10</td><td></td></tr>";
+
+        //Yuri
+        output +="<tr><td>Yuri</td><td>14</td><td></td></tr>";
+
+        //Lyuni
+        output +="<tr><td>Lyuni</td><td>11</td><td></td></tr>";
+
+        //Lily
+        output +="<tr><td>Lily</td><td>11</td><td></td></tr>";
+
+        //Miya
+        output +="<tr><td>Miya</td><td>13</td><td></td></tr>";
+
+        //Ellena
+        output +="<tr><td>Ellena</td><td>9</td><td></td></tr>";
+
+        //Jihoon
+        output +="<tr><td>Jihoon</td><td>15</td><td></td></tr>";
+
+        //Julia
+        output +="<tr><td>Julia</td><td>13</td><td></td></tr>";
+
+        output +="</table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>";
         idH2.innerHTML += output;
 
 // //Rap Teacher
@@ -359,7 +462,7 @@ function youTube(){
     window.open("https://www.youtube.com/@MPOP-b8r")
 }
 function faceBook(){
-    window.open("https://www.facebook.com/profile.php?id=61562921567285")
+    window.open("https://www.facebook.com/profile.php?id=61562921567285&mibextid=ZbWKwL")
 }
 
 function elsehYm(){
@@ -529,6 +632,10 @@ function elsehYm(){
     //noa
     function noaFb(){
         window.open("https://www.facebook.com/profile.php?id=61555881741998")
+    }
+    //gena
+    function genaFb(){
+        window.open("https://www.facebook.com/profile.php?id=100076458789842")
     }
 
 //Vocal teacher
