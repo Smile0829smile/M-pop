@@ -3,10 +3,11 @@ console.log("Busdiin hudulmur bolon busad zuilsiig hundlej ene hesgees garna uu 
 
 //Ehlel
 function startingThings(){
-    idH2.innerHTML = "<input type='button' class='customButtons1' value='M-POP iin social' onClick='socailMedia()'><br><br>"
+    idH2.innerHTML = "<img src='mpop.jpg' width='300px' height=''><br><br>"
+    idH2.innerHTML += "<input type='button' class='customButtons1' value='M-POP iin social' onClick='socailMedia()'><br><br>"
     idH2.innerHTML += "<input type='button' class='customButtons' value='M-POP members' onClick='mPopGishuud()'><br><br>"
     idH2.innerHTML += "<input type='button' class='customButton' value='M-POP member boloh' onClick='newMember()'><br><br>"
-    idH2.innerHTML += "<img src='mpop.jpg' width='350px' height=''>"
+    
 
     idH3.innerHTML = "Made by:- Nazuke"
 
