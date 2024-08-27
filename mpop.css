@@ -171,6 +171,7 @@ div.b{
     position: absolute;
     left: 1%;
     bottom: 1%;
+    width: 75px;
 }
 .wrapper-main {
     width : 1000px;
