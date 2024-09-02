@@ -16,6 +16,8 @@ function startingThings(){
     
 
     idH3.innerHTML = "Made by:- Nazuke"
+
+    document.body.style.color="black";
 }
 
 
