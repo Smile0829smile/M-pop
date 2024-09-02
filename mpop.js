@@ -5,8 +5,8 @@ console.log("Busdiin hudulmur bolon busad zuilsiig hundlej ene hesgees garna uu 
 function startingThings(){
     idH4.innerHTML = "<img src='star.png' width='80%' height='80%' onClick='nuuts()'>"
     idH5.innerHTML = "<img src='star1.png' width='150%' height='150%'>"
-    idH6.innerHTML = "<img src='star.png' width='150%' height='150%'>"
-    idH7.innerHTML = "<img src='star1.png' width='150%' height='150%'>"
+    // idH6.innerHTML = "<img src='star.png' width='150%' height='150%'>"
+    // idH7.innerHTML = "<img src='star1.png' width='150%' height='150%'>"
 
 
     idH2.innerHTML = "<img src='mpop.jpg' width='300px' height=''><br><br>"
