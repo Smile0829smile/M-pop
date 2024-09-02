@@ -3,7 +3,10 @@ console.log("Busdiin hudulmur bolon busad zuilsiig hundlej ene hesgees garna uu 
 
 //Ehlel
 function startingThings(){
-    idH4.innerHTML = "<input type='button' class='nuuts' value='' onClick='nuuts()'>"
+    idH4.innerHTML = "<img src='star.png' width='80%' height='80%' onClick='nuuts()'>"
+    idH5.innerHTML = "<img src='star1.png' width='150%' height='150%'>"
+    idH6.innerHTML = "<img src='star.png' width='150%' height='150%'>"
+    idH7.innerHTML = "<img src='star1.png' width='150%' height='150%'>"
 
 
     idH2.innerHTML = "<img src='mpop.jpg' width='300px' height=''><br><br>"
@@ -23,7 +26,10 @@ function socailMedia(){
     idH2.innerHTML = "<input type='button' class='customSocial' value='YouTube' onClick='youTube()'><br><br>";
     idH2.innerHTML += "<input type='button' class='customSocial' value='FaceBook' onClick='faceBook()'><br><br>"
     idH2.innerHTML += "<input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
-    idH4.innerHTML += "";
+    idH4.innerHTML = "";
+    idH5.innerHTML = "";
+    idH6.innerHTML = "";
+    idH7.innerHTML = "";
 }
 
 
@@ -33,6 +39,9 @@ function socailMedia(){
 function mPopGishuud(){
         idH3.innerHTML = "";
         idH4.innerHTML = "";
+        idH5.innerHTML = "";
+        idH6.innerHTML = "";
+        idH7.innerHTML = "";
 
     //Back button
     idH2.innerHTML = "<input type='button' class='customButtons2_5' value='butsah' onClick='startingThings()'><br>";
@@ -459,6 +468,10 @@ function mPopGishuud(){
 function newMember(){
     idH2.innerHTML = "<input type='button' class='customSocial' value='Elseh' onClick='elsehYm()'><br><br>";
     idH2.innerHTML += "<input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    idH4.innerHTML = "";
+    idH5.innerHTML = "";
+    idH6.innerHTML = "";
+    idH7.innerHTML = "";
 }
 
 
@@ -675,16 +688,42 @@ function nuuts(){
     idH2.innerHTML += "<input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
 
     idH4.innerHTML ="";
+    idH5.innerHTML = "";
+    idH6.innerHTML = "";
+    idH7.innerHTML = "";
 }
 
 function checkCode(){
     if(idCode.value == "2024nazuke"){
-        idH2.innerHTML = "Hey there, here is dark side of this..."
+        document.body.style.color= "white";
+        idH2.innerHTML = "Hugjiltei tsag muchuud <3"
+        idH2.innerHTML +="<br><br><img src='mpop1.jpg' width='50%' height=''>";
+
+        idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    }
+    else if(idCode.value == "nKh9jC6x"){
+        document.body.style.color= "white";
+        idH2.innerHTML = "<input type='text' class='textbox' value='' placeholder='ner' id='idCode1'><br>";
+        idH2.innerHTML+= "<input type='text' class='textbox' value='' placeholder='id without 0s' id='idCode2'><br>";
+        idH2.innerHTML += "<input type='button' class='customButtons' id='idBtn1' value = 'shalgah' onClick ='checkCode1()'>"
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
     else if(idCode.value == "2024MPOP"){
-        idH2.innerHTML = "Bi entiinhendee hairtai <3. love you all from nazuke."
+        document.body.style.color= "white";
+        idH2.innerHTML = "Mpop ni 2024 onii 5 sariin 15nd neegdsen ba anh mugi kan ceo neej baisan baina "
+
+        idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    }
+    else{
+        alert("Code is wrong, please try again.")
+    }
+}
+
+function checkCode1(){
+    if(idCode1.value == "nazuke" && idCode2.value == "499630"){
+        document.body.style.color= "white";
+        idH2.innerHTML = "End l goy ym aa hiine dee hha"
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }

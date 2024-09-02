@@ -3,11 +3,16 @@ html{
 }
 body{
     text-align: center;
-    background-color: lightblue;
+    background-image: url('mpopUtas.jpg');
+    background-size: 400%;
 }
 
 .creator{
     font-size: x-large;
+    color: white;
+}
+.H1{
+    color:white;
 }
 
 .textbox{
@@ -116,8 +121,8 @@ body{
     font-size: 30px;
     color: lightblue;
     background-color: lightblue;
-    width:20%;
-    height: 20%;
+    width:10px;
+    height: 10px;
     text-align:center;
     margin:auto;
     border-color: lightblue;
@@ -126,6 +131,7 @@ body{
 .nerName{
     position: absolute;
     left: 10%;
+    color: white;
 }
 
 table{
@@ -135,6 +141,10 @@ table{
     border: 1px;
     border-color: black;
     border-style: solid;
+}
+
+a{
+    background-color: wheat;
 }
 
 th{
@@ -171,9 +181,33 @@ div.b{
     position: absolute;
     left: 1%;
     bottom: 1%;
-    width: 10%;
-    height: 5%;
+    width: 20%;
+    height: 10%;
 }
+
+div.c{
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+    width: 20%;
+    height: 10%;
+}
+div.d{
+    position: absolute;
+    left: 60%;
+    bottom: 25%;
+    width: 20%;
+    height: 10%;
+}
+
+div.e{
+    position: absolute;
+    left: 20%;
+    bottom: 25%;
+    width: 20%;
+    height: 10%;
+}
+
 .wrapper-main {
     width : 1000px;
     height: 760px;
