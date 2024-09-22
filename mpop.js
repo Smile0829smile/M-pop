@@ -738,6 +738,13 @@ function checkCode(){
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
+    else if(idCode.value == "hurhunteddy"){
+        document.body.style.color= "white";
+        idH2.innerHTML = "Hugjiltei tsag muchuud <3"
+        idH2.innerHTML +="<br><br><img src='teddy.jpg' width='50%' height=''>";
+
+        idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    }
     else{
         alert("Code is wrong, please try again.")
     }
