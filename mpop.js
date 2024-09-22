@@ -717,6 +717,27 @@ function checkCode(){
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
+    else if(idCode.value == "hurhunkimmy"){
+        document.body.style.color= "white";
+        idH2.innerHTML = "Hurhun kimmy <3"
+        idH2.innerHTML +="<br><br><img src='kimmy.jpg' width='50%' height=''>";
+
+        idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    }
+    else if(idCode.value == "hurhunyunji"){
+        document.body.style.color= "white";
+        idH2.innerHTML = "Hurhun Yunji <3"
+        idH2.innerHTML +="<br><br><img src='yunji.jpg' width='50%' height=''>";
+
+        idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    }
+    else if(idCode.value == "hurhunminji"){
+        document.body.style.color= "white";
+        idH2.innerHTML = "Hurhun Minji <3"
+        idH2.innerHTML +="<br><br><img src='minji.jpg' width='50%' height=''>";
+
+        idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
+    }
     else{
         alert("Code is wrong, please try again.")
     }
