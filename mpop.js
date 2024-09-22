@@ -720,7 +720,7 @@ function checkCode(){
     else if(idCode.value == "hurhunkimmy"){
         document.body.style.color= "white";
         idH2.innerHTML = "Hurhun kimmy <3"
-        idH2.innerHTML +="<br><br><img src='kimmy.jpg' width='50%' height=''>";
+        idH2.innerHTML +="<br><br><img src='IMG_2535.jpeg' width='50%' height=''>";
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
