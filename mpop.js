@@ -734,7 +734,7 @@ function checkCode(){
     else if(idCode.value == "hurhunminji"){
         document.body.style.color= "white";
         idH2.innerHTML = "Hurhun Minji <3"
-        idH2.innerHTML +="<br><br><img src='minji.jpg' width='50%' height=''>";
+        idH2.innerHTML +="<br><br><img src='IMG_2534.jpeg' width='50%' height=''>";
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
