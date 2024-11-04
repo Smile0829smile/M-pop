@@ -703,7 +703,7 @@ function checkCode(){
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
-    else if(idCode.value == "nKh9jC6x"){
+    else if(idCode.value == "11223344"){
         document.body.style.color= "white";
         idH2.innerHTML = "<input type='text' class='textbox' value='' placeholder='ner' id='idCode1'><br>";
         idH2.innerHTML+= "<input type='text' class='textbox' value='' placeholder='id without 0s' id='idCode2'><br>";
