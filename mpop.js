@@ -717,14 +717,14 @@ function checkCode(){
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
-    else if(idCode.value == "hurhunkimmy"){
+    else if(idCode.value == "HurhunKimmy"){
         document.body.style.color= "white";
         idH2.innerHTML = "Hurhun kimmy <3"
         idH2.innerHTML +="<br><br><img src='IMG_2535.jpeg' width='50%' height=''>";
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
-    else if(idCode.value == "hurhunyunji"){
+    else if(idCode.value == "hurhunYunji"){
         document.body.style.color= "white";
         idH2.innerHTML = "Hurhun Yunji <3"
         idH2.innerHTML +="<br><br><img src='IMG_2532.jpeg' width='50%' height=''>";
