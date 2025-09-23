@@ -753,7 +753,7 @@ function checkCode(){
 function checkCode1(){
     if(idCode1.value == "nazuke" && idCode2.value == "499630"){
         document.body.style.color= "white";
-        idH2.innerHTML ="My Crush is Amina. I loved her since 6th grade <3"
+        idH2.innerHTML ="My Crush is Amina. I loved her since 6th grade <3, odoo bol mni crush Yura. 11 dugr angid bhdaa durlasn<3"
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
