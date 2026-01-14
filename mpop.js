@@ -713,7 +713,7 @@ function checkCode(){
     }
     else if(idCode.value == "2024MPOP"){
         document.body.style.color= "white";
-        idH2.innerHTML = "Mpop ni 2024 onii 5 sariin 15nd neegdsen ba anh mugi kan ceo neej baisan baina "
+        idH2.innerHTML = "Mpop ni 2024 onii 5 sariin 15nd neegdsen ba nazuke minii biy 2024 onii 5 sariin 21 nid orson bna"
 
         idH2.innerHTML += "<br><br><input type='button' class='customButtons2' value='butsah' onClick='startingThings()'>";
     }
